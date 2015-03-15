@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('angularTokenApp')
+angular.module('angularToken')
   .service('alert', function alert($rootScope, $timeout) {
     var alertTimeout;
     return function(type, title, message, timeout){

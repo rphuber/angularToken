@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('angularTokenApp')
+angular.module('angularToken')
   .directive('validateEquals', function () {
     return {
         require: 'ngModel',
